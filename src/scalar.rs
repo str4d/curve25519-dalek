@@ -138,6 +138,8 @@
 //! The resulting `Scalar` has exactly the specified bit pattern,
 //! **except for the highest bit, which will be set to 0**.
 
+pub(crate) mod lattice_reduction;
+
 use core::borrow::Borrow;
 use core::cmp::{Eq, PartialEq};
 use core::fmt::Debug;
